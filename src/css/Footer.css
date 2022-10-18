@@ -1,0 +1,11 @@
+.footerArea {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 15vh;
+    margin-left: 10px;
+    background : aliceblue;
+    text-decoration: none;
+    border: 1px solid black;
+}

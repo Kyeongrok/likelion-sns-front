@@ -1,0 +1,38 @@
+.name_Box {
+    display: flex;
+    align-items: contents;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .Box {
+    border: 1px solid gray;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40ox;
+    }
+  
+  
+    .Box2 {
+      border: 1px solid gray;
+      width: 500px;
+      align-items: center;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30ox;
+      }
+  
+      .id_deco {
+        text-decoration: blue underline;
+        text-decoration-color: blue;
+        color: blue;
+        cursor: pointer;
+      }
