@@ -2,11 +2,13 @@ import React, {useState, useEffect} from 'react'
 import '../css/BoardList.css'
 import Table from 'react-bootstrap/Table';
 import axios from 'axios'
+import { useNavigate} from 'react-router-dom';
 
 
 function BoardList() {
 
     const [data, setData] = useState([])
+    const navigate = useNavigate();
 
     useEffect(() => {
         axios.get('http://ec2-3-38-111-117.ap-northeast-2.compute.amazonaws.com:32574/api/boards')
@@ -31,7 +33,13 @@ function BoardList() {
             {data.map(board => 
                 <tr key={board.id} className={'Box'}>
                     <td>{board.id}</td>
-                    <td>{board.title}</td>
+                    <td className='id_deco' onClick={(e) => {
+                        navigate("/WritePost", { state : {
+                            id : board.id,
+                            title : board.title,
+                            content : board.content
+                        }})
+                    }}>{board.title}</td>
                     <td>{board.content}</td>
                 </tr>
                 )}

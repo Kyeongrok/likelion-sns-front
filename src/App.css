@@ -85,6 +85,9 @@ body {
 
 .content-box {
   text-align: center;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
 }
 
 

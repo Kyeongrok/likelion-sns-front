@@ -24,15 +24,16 @@ function App() {
         <div className="main">
             <nav className="left-bar">
               <a className='left-bar-button' href='/BoardList'> 글 목록</a>
-              <a className='left-bar-button' href='/WritePost'>글 작성</a>
+              <a className='left-bar-button' href='/BoardPost'>글 작성</a>
               <a className='left-bar-button' href='/SignUp'>회원 가입</a>
               <a className='left-bar-button' href='/SignIn'>로그인</a>
-              <a className='left-bar-button' href='/MyPost'>내 글</a>
+              {/* <a className='left-bar-button' href='/MyPost'>내 글</a> */}
             </nav>
           <div className="content-wraper">
             <div className="content-box" >
+              <Router/>
             </div>
-            <Router/>
+            
           </div>  
         </div> 
         <Footer/>
