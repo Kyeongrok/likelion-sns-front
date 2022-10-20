@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios'
-import {useLocation, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 import '../css/BoardPost.css'
 
 function BoardPost() {
@@ -8,7 +8,7 @@ function BoardPost() {
   // const [id, setId] = useState('')
   const [content, setContent] = useState('')
   const [title, setTitle] = useState('')
-  const location = useLocation('');
+  // const location = useLocation('');
   const navigate = useNavigate('');
   
 
