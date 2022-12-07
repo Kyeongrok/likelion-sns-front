@@ -6,7 +6,7 @@ import '../css/Footer.css'
     <div className='footerArea'>
       <br/>
         React FrontEnd App<br/>
-        제작자 : 김영환<br/>
+        제작자 : xxx<br/>
     </div>
   )
 }

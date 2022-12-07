@@ -11,14 +11,12 @@ function App() {
 
   return (
       <div className="container">
-        <div> 
-          <img src='https://uploads-ssl.webflow.com/5f3b26c2b3bde9e2894607e8/6049a6bd314be972946af637_OSC%20Korea%20CI%20blue.svg'
-            height="45px"
-        ></img> 
+        <div>
+
         </div>
         <div className="header">
           <div className='serviceName'>
-          Osc Board
+          Likelion Board
           </div>
         </div>
         <div className="main">
@@ -33,9 +31,9 @@ function App() {
             <div className="content-box" >
               <Router/>
             </div>
-            
-          </div>  
-        </div> 
+
+          </div>
+        </div>
         <Footer/>
       </div>
   );
